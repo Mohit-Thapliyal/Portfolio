@@ -39,10 +39,10 @@ const Main = () => {
               some of the adjectives to define me. Coding is my passion and art
               is my hobby.
             </p>
-            <div className="flex gap-4 mt-3 lg:mt-10">
+            <div className="flex mt-3 md:gap-4 lg:mt-10">
               <Link
                 to="contact"
-                className="px-3 py-2 font-bold transition-all duration-500 ease-out border-2 rounded-md cursor-pointer border-primary text-primary hover:scale-110 bg-highlight md:px-5 active:border-highlight active:text-highlight active:bg-primary focus:bg-highlight/80"
+                className="px-3 py-2 font-bold transition-all duration-500 ease-out border rounded-md cursor-pointer md:border-2 border-primary text-primary hover:scale-110 bg-highlight md:px-5 active:border-highlight active:text-highlight active:bg-primary focus:bg-highlight/80"
               >
                 Hire me
               </Link>
@@ -51,7 +51,7 @@ const Main = () => {
                   "https://drive.google.com/file/d/1qb19b9Z4yZ6iWWdH5XPlIWn1L8jgI8S6/view?usp=sharing"
                 }
                 target="blank"
-                className="flex px-3 py-2 ml-3 font-bold transition-all duration-500 bg-transparent border-2 rounded-md hover:scale-110 hover:bg-highlight text-highlight hover:text-primary md:px-5 border-highlight hover:border-primary"
+                className="flex px-3 py-2 ml-3 font-bold transition-all duration-500 bg-transparent border rounded-md md:border-2 hover:scale-110 hover:bg-highlight text-highlight hover:text-primary md:px-5 border-highlight hover:border-primary"
               >
                 Download Resume
                 <HiDownload className="text-2xl font-thin" />
