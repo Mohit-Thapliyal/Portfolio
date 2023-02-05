@@ -45,7 +45,7 @@ const Navitems = [
 const Navbar = () => {
   return (
     <>
-      <nav className="flex p-1.5 md:border-r md:border-b border-tertiary fixed bottom-0 lg:bottom-auto bg-secondary lg:w-2/4 mx-auto rounded-t-md lg:rounded-full justify-around z-10 mt-4 w-screen ">
+      <nav className="flex md:p-1.5 md:border-r md:border-b border-tertiary fixed bottom-0 lg:bottom-auto bg-secondary lg:w-2/4 mx-auto rounded-t-md lg:rounded-full justify-around z-10 mt-4 w-screen ">
         {Navitems.map((Navitem) => (
           <NavItem
             key={Navitem.id}

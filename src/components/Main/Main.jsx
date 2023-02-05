@@ -58,7 +58,7 @@ const Main = () => {
               </a>
             </div>
           </div>
-          <div className="flex justify-center bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-secondary via-tertiary to-secondary w-4/6  rounded-3xl md:rounded-[1em] hover:scale-105 duration-300 ease-linear md:justify-end md:w-5/12 lg:w-3/12">
+          <div className="flex justify-center bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-secondary via-tertiary to-secondary w-7/12  rounded-3xl md:rounded-[1em] hover:scale-105 duration-300 ease-linear md:justify-end md:w-5/12 lg:w-3/12">
             <img
               src={profilePic}
               alt="profile pic"
