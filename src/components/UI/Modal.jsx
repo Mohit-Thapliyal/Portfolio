@@ -18,7 +18,7 @@ const Modal = (props) => {
             />
             <div
               onClick={props.onClose}
-              className="absolute p-1 border border-purple-300 rounded-full shadow-lg cursor-pointer bg-primary top-2 right-2"
+              className="absolute p-1 border rounded-full shadow-lg cursor-pointer text-primary border-secondary bg-highlight top-2 right-2"
             >
               <IoClose className="text-lg lg:text-3xl" />
             </div>
@@ -35,9 +35,9 @@ const Modal = (props) => {
             />
             <div
               onClick={props.onClose}
-              className="absolute p-1 text-white bg-white border rounded-full shadow-lg cursor-pointer top-2 right-2 backdrop-blur-md bg-opacity-70"
+              className="absolute p-1 border rounded-full shadow-lg cursor-pointer text-primary border-secondary bg-highlight top-2 right-2"
             >
-              <IoClose className="text-lg text-cyan-900 lg:text-3xl" />
+              <IoClose className="text-lg lg:text-3xl" />
             </div>
           </div>
         </div>

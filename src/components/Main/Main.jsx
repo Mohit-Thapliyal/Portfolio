@@ -48,7 +48,7 @@ const Main = () => {
               </Link>
               <a
                 href={
-                  "https://drive.google.com/file/d/1qb19b9Z4yZ6iWWdH5XPlIWn1L8jgI8S6/view?usp=sharing"
+                  "https://docs.google.com/document/d/1TZY3x4PmRfx0eFCds9ul9M-1iHG3z83rBOvlmp_F0bY/edit?usp=sharing"
                 }
                 target="blank"
                 className="flex px-3 py-2 ml-3 font-bold transition-all duration-500 bg-transparent border rounded-md md:border-2 hover:scale-110 hover:bg-highlight text-highlight hover:text-primary md:px-5 border-highlight hover:border-primary"
