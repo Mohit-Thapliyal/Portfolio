@@ -7,7 +7,7 @@ const Project = (props) => {
   return (
     <div className="transition-all duration-300 ease-in-out cursor-pointer hover:scale-105">
       <motion.div
-        initial={{y:20, opacity: 0, scale: 0.3 }}
+        initial={{y:20, opacity: 0, scale: 0.8 }}
         animate={{
           y:0,
           opacity: 1,
@@ -15,7 +15,7 @@ const Project = (props) => {
         }}
         transition={{
           delay: 0.3,
-          duration: 0.6,
+          duration: 0.5,
         }}
         onClick={() => {
           props.onShowModal(1, props.image);
