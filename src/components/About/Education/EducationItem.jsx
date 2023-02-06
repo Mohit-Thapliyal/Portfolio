@@ -1,9 +1,11 @@
 import React from "react";
+import {motion} from 'framer-motion'
+import { fadeInItem } from "../../../utils/motion";
 
 const EducationItem = (props) => {
   return (
     <>
-      <li className="flex p-3 text-left duration-200 rounded-lg shadow-lg cursor-default bg-nosecondary font-nunito lg:justify-between lg:px-5 lg:py-6 lg:hover:scale-105">
+      <motion.li variants={fadeInItem} className="flex p-3 text-left duration-200 rounded-lg shadow-lg cursor-default bg-nosecondary font-nunito lg:justify-between lg:px-5 lg:py-6 lg:hover:scale-105">
         <div className="space-y-1 lg:w-3/6">
           <h2 className="text-lg font-bold leading-tight font-edusa lg:leading-normal lg:text-xl">
             {props.uniName},
@@ -14,7 +16,7 @@ const EducationItem = (props) => {
           <h3 className="text-base font-semibold leading-snug font-quicksand">
             {props.courseName}
           </h3>
-          <p className="text-xs font-bold text-purple-300 lg:hidden font-quicksand lg:text-base">
+          <p className="text-xs font-bold text-highlight/80 lg:hidden font-quicksand lg:text-base">
             {props.duration}
           </p>
           <h4 className="text-sm font-semibold font-quicksand lg:text-base">
@@ -26,7 +28,7 @@ const EducationItem = (props) => {
             {props.duration}
           </p>
         </div>
-      </li>
+      </motion.li>
     </>
   );
 };

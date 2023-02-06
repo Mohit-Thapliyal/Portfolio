@@ -1,12 +1,12 @@
 import React from "react";
 import { certificateDetails } from "../../../data";
 import CertificationItem from "./CertificationItem";
-
-
+import {motion} from 'framer-motion'
+import { fadeInContainer } from "../../../utils/motion";
 
 const Certification = () => {
   return (
-    <ul className="grid gap-10 px-3 py-5  md:grid-cols-2 lg:px-12 lg:py-10">
+    <motion.ul variants={fadeInContainer} initial="hidden" whileInView="visible" className="grid gap-10 px-3 py-5 md:grid-cols-2 lg:px-12 lg:py-10">
       {certificateDetails.map((certificateDetail) => (
         <CertificationItem
           key={certificateDetail.id}
@@ -17,7 +17,7 @@ const Certification = () => {
           link={certificateDetail.link}
         />
       ))}
-    </ul>
+    </motion.ul>
   );
 };
 

@@ -1,11 +1,16 @@
 import React from "react";
+import {motion} from 'framer-motion'
+import { fadeInContainer, fadeInItem } from "../../../utils/motion";
 
 const AboutMe = () => {
   return (
-    <div
+    <motion.div
+    variants={fadeInContainer}
+    initial="hidden"
+    animate="visible"
       className="flex items-center justify-between min-h-full p-1 md:h-full md:p-3 lg:p-5 xl:p-7 text-shadow-md"
     >
-      <div className="flex flex-col items-center justify-center h-full px-2 py-3 font-medium text-center rounded-md bg-nosecondary xl:py-6 xl:px-5 font-edusa md:text-lg lg:text-lg xl:text-2xl">
+      <motion.div variants={fadeInItem} className="flex flex-col items-center justify-center h-full px-2 py-3 font-medium text-center rounded-md bg-nosecondary xl:py-6 xl:px-5 font-edusa md:text-lg lg:text-lg xl:text-2xl">
         <h2 className="font-bold text-highlight">Namaste! Everyone, </h2>
         <p className="mt-5">Hope you all are doing well.</p>
         <div className="mt-1">
@@ -39,8 +44,8 @@ const AboutMe = () => {
           <div className="mt-5 font-semibold text-highlight">Regards,</div>
           <div className="mt-4 font-bold text-highlight">Mohit Thapliyal</div>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

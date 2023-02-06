@@ -82,6 +82,7 @@ const About = () => {
           <ul className="flex flex-col select-none justify-evenly">
             {aboutList.map(item=>(
               <li
+              key={item.id}
               onClick={() => {
                 setSectionNumber(item.number);
               }}

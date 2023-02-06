@@ -1,9 +1,11 @@
 import React from "react";
+import {motion} from 'framer-motion'
+import { fadeInItem } from "../../../utils/motion";
 
 const WorkItem = (props) => {
   return (
     <>
-      <li className="flex p-3 py-5 text-left duration-200 rounded-lg shadow-lg cursor-default font-nunito lg:justify-between bg-nosecondary lg:px-5 lg:py-6 lg:hover:scale-105">
+      <motion.li variants={fadeInItem} className="flex p-3 py-5 text-left duration-200 rounded-lg shadow-lg cursor-default font-nunito lg:justify-between bg-nosecondary lg:px-5 lg:py-6 lg:hover:scale-105">
         <div className="space-y-1 lg:w-3/6">
           <h2 className="text-lg font-bold leading-tight font-quicksand lg:leading-normal lg:text-xl">
             {props.jobRole}
@@ -11,9 +13,7 @@ const WorkItem = (props) => {
           <h2 className="text-base font-semibold leading-tight text-highlight lg:leading-normal font-quicksand">
             {props.company}
           </h2>
-          <p className="text-sm font-semibold lg:text-sm">
-            {props.location}
-          </p>
+          <p className="text-sm font-semibold lg:text-sm">{props.location}</p>
           <p className="text-xs font-bold lg:hidden font-quicksand lg:text-base ">
             {props.duration}
           </p>
@@ -43,7 +43,7 @@ const WorkItem = (props) => {
             {props.duration}
           </p>
         </div>
-      </li>
+      </motion.li>
     </>
   );
 };

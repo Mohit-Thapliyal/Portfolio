@@ -10,7 +10,6 @@ import {
 } from "react-icons/io5";
 import { SiBuymeacoffee } from "react-icons/si";
 
-// import background from "../../images/background/background1.jpg";
 import Notification from "../UI/Notification";
 import Footer from "../Footer/Footer";
 import AnimatedPage from "../UI/AnimatedPage";
@@ -59,10 +58,6 @@ const Contact = () => {
     <AnimatedPage>
     <section
       id="contact"
-      // style={{
-      //   background: `url(${background}) no-repeat center`,
-      //   backgroundSize: "cover",
-      // }}
       className="flex items-center justify-center w-full lg:min-h-screen"
     >
       {messageSent && <Notification messageClass={messageType} onCloseMessage={closeMessageHandler} />}
@@ -137,9 +132,10 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div><AnimatedPage>
           <div className="p-8 py-5 text-gray-100 shadow-lg bg-tertiary rounded-xl xl:py-9 lg:w-96">
-            <form
+            
+              <form
               ref={form}
               onSubmit={sendEmail}
               className="flex flex-col space-y-4"
@@ -192,6 +188,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
+            </AnimatedPage>
         </div>
       </div>
     </section>

@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import { HiDownload } from "react-icons/hi";
+import {motion} from 'framer-motion'
 
 import profilePic from "../../images/profile/mohit1.png";
-// import background from "../../images/background/background2.jpg";
 import AnimatedPage from "../UI/AnimatedPage";
+import { fadeInContainer, fadeInItem } from "../../utils/motion";
 
 const Main = () => {
 
@@ -19,8 +20,16 @@ const Main = () => {
           </span>
         </div>
 
-        <div className="flex flex-col-reverse cursor-default lg:flex-row justify-end md:justify-evenly items-center xl:gap-0 gap-7 py-[5vh] md:py-[7vh] lg:py-[17vh] xl:py-[23vh]">
-          <div className="w-5/6 p-3 py-5 text-left bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-secondary via-tertiary to-secondary duration-300 ease-linear rounded-lg md:w-8/12 lg:w-6/12 md:p-10 lg:pb-8 lg:p-10 xl:pb-16">
+        <motion.div variants={fadeInContainer} initial="hidden" whileInView="visible" className="flex flex-col cursor-default lg:flex-row-reverse justify-end md:justify-evenly items-center xl:gap-0 gap-7 py-[5vh] md:py-[7vh] lg:py-[17vh] xl:py-[23vh]">
+          
+        <motion.div variants={fadeInItem} className="flex justify-center bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-highlight via-tertiary to-secondary w-7/12  rounded-3xl md:rounded-[1em] hover:scale-105 duration-300 ease-linear md:justify-end md:w-5/12 lg:w-3/12">
+            <img
+              src={profilePic}
+              alt="profile pic"
+              className="grayscale shadow-lg rounded-3xl md:rounded-[1em]"
+            />
+          </motion.div>
+          <motion.div variants={fadeInItem} className="w-5/6 p-3 py-5 text-left bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-secondary via-tertiary to-secondary duration-300 ease-linear rounded-lg md:w-8/12 lg:w-6/12 md:p-10 lg:pb-8 lg:p-10 xl:pb-16">
             <h3 className="text-xl font-medium text-shadow-md md:text-4xl">
               Namaste!
             </h3>
@@ -57,15 +66,9 @@ const Main = () => {
                 <HiDownload className="text-2xl font-thin" />
               </a>
             </div>
-          </div>
-          <div className="flex justify-center bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-highlight via-tertiary to-secondary w-7/12  rounded-3xl md:rounded-[1em] hover:scale-105 duration-300 ease-linear md:justify-end md:w-5/12 lg:w-3/12">
-            <img
-              src={profilePic}
-              alt="profile pic"
-              className="grayscale shadow-lg rounded-3xl md:rounded-[1em]"
-            />
-          </div>
-        </div>
+          </motion.div>
+          
+        </motion.div>
       </main>
     </AnimatedPage>
   );

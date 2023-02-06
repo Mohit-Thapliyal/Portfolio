@@ -50,6 +50,8 @@ module.exports = {
         // tertiary: "#616F39",
         // nosecondary: "#3E432E",
         // notertiary: "#616F39",
+        // highlight: "#FEC260",
+        
         // highlight: "#A7D129",
       }
     },

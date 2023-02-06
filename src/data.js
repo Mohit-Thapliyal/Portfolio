@@ -58,7 +58,7 @@ export const workDetails = [
       "Worte a completely new code base.",
       "Working on Dashboard with Google map API.",
       "Using React and Tailwind for designing the website.",
-      "Managing Authentication and Authorization"
+      "Managing Authentication and Authorization",
     ],
     skills: ["React", "Tailwind", "JavaScript", "REST API", "JWT"],
     duration: "Sep 2022 - Dec 2022 · 3 mo",
@@ -91,7 +91,10 @@ export const workDetails = [
     jobRole: "Web Developer",
     company: "Failure to Success ∙ Intenship",
     location: "Delhi, India",
-    responsibilities: ["Worked as a part of a team", "Built responsive web apps"],
+    responsibilities: [
+      "Worked as a part of a team",
+      "Built responsive web apps",
+    ],
     skills: [
       "Flask",
       "CSS",
@@ -114,7 +117,7 @@ export const certificateDetails = [
     institution: "Udemy",
     instructor: "Dr. Angela Yu",
     date: "APR 2021",
-    link: "https://www.udemy.com/certificate/UC-ca1fa17f-30ec-4581-a9f3-08930a7a0a0c/"
+    link: "https://www.udemy.com/certificate/UC-ca1fa17f-30ec-4581-a9f3-08930a7a0a0c/",
   },
   {
     id: "cert2",
@@ -122,7 +125,7 @@ export const certificateDetails = [
     institution: "Udemy",
     instructor: "Maximilian Schwarzmüller",
     date: "SEP 2022",
-    link: "https://www.udemy.com/certificate/UC-ad72c371-c738-48c3-a2cd-b70359f92072/"
+    link: "https://www.udemy.com/certificate/UC-ad72c371-c738-48c3-a2cd-b70359f92072/",
   },
   {
     id: "cert3",
@@ -130,30 +133,49 @@ export const certificateDetails = [
     institution: "Bharati Vidyapeeth University",
     instructor: "",
     date: "JUL 2021",
-    link: "https://drive.google.com/file/d/12L_hYjWcmm4P29ASHqJQ6TkKNAkOUbfY/view"
-  }
+    link: "https://drive.google.com/file/d/12L_hYjWcmm4P29ASHqJQ6TkKNAkOUbfY/view",
+  },
 ];
 
-// Portrait Paintings
-export const portraitPaintings = [
+// Paintings
+export const paintings = [
   {
     id: "pp1",
     painting: painting1,
     title: "Rural man and woman playing music",
+    type: "portrait",
   },
-  { id: "pp2", painting: painting3, title: "Akshay kumar" },
-  { id: "pp3", painting: painting2, title: "My Grandma" },
-  { id: "pp4", painting: painting4, title: "Lord Shiva" },
-  { id: "pp5", painting: painting5, title: "Flowers in a pot" },
-  { id: "pp6", painting: painting6, title: "Royal woman" },
+  { id: "pp2", painting: painting3, title: "Akshay kumar", type: "portrait" },
+  { id: "pp3", painting: painting2, title: "My Grandma", type: "portrait" },
+  { id: "pp4", painting: painting4, title: "Lord Shiva", type: "portrait" },
+  {
+    id: "pp5",
+    painting: painting5,
+    title: "Flowers in a pot",
+    type: "portrait",
+  },
+  { id: "pp6", painting: painting6, title: "Royal woman", type: "portrait" },
+  {
+    id: "lp1",
+    painting: painting7,
+    title: "Abstract pattern",
+    type: "landscape",
+  },
+  {
+    id: "lp2",
+    painting: painting8,
+    title: "Lion facing each other",
+    type: "landscape",
+  },
+  { id: "lp3", painting: painting9, title: "Radha Krishna", type: "landscape" },
+  {
+    id: "lp4",
+    painting: painting10,
+    title: "Deer in the sunset",
+    type: "landscape",
+  },
 ];
 // Landscape Paintings
-export const landscapePaintngs = [
-  { id: "lp1", painting: painting7, title: "Abstract pattern" },
-  { id: "lp2", painting: painting8, title: "Lion facing each other" },
-  { id: "lp3", painting: painting9, title: "Radha Krishna" },
-  { id: "lp4", painting: painting10, title: "Deer in the sunset" },
-];
 
 // Skills
 export const skillIcons = [
