@@ -57,7 +57,7 @@ const Contact = () => {
 
   return (
     <AnimatedPage>
-    <div
+    <section
       id="contact"
       // style={{
       //   background: `url(${background}) no-repeat center`,
@@ -79,7 +79,7 @@ const Contact = () => {
             <a
               href="https://www.buymeacoffee.com/mohitthapliyal"
               target="buymeacoffee"
-              className="inline-flex items-center px-2 py-1 mt-2 space-x-2 duration-300 rounded-md bg-highlight xl:mt-4 sm:hover:scale-105"
+              className="inline-flex items-center px-2 py-1 mt-2 space-x-2 duration-300 rounded-md bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-highlight to-tertiary xl:mt-4 sm:hover:scale-105"
             >
               <SiBuymeacoffee className="text-2xl text-secondary" />
               <span className="font-semibold font-edusa text-secondary">Buy me a coffee</span>
@@ -194,7 +194,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <Footer/>
     </AnimatedPage>
   );

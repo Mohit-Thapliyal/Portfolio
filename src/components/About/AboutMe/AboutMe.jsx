@@ -3,12 +3,12 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div
-      className="flex items-center justify-between min-h-full p-1 md:h-full md:p-3 lg:p-5 xl:p-7"
+      className="flex items-center justify-between min-h-full p-1 md:h-full md:p-3 lg:p-5 xl:p-7 text-shadow-md"
     >
       <div className="flex flex-col items-center justify-center h-full px-2 py-3 font-medium text-center rounded-md bg-nosecondary xl:py-6 xl:px-5 font-edusa md:text-lg lg:text-lg xl:text-2xl">
-        <h2 className="font-bold">Hello! Everyone, </h2>
-        <p>Hope you all are doing well.</p>
-        <div className="">
+        <h2 className="font-bold text-highlight">Namaste! Everyone, </h2>
+        <p className="mt-5">Hope you all are doing well.</p>
+        <div className="mt-1">
           <div className="mt-1">
             My name is <span className="font-semibold">Mohit Thapliyal</span>{" "}
             and I'm 21 years old. Currently pursuing a{" "}
@@ -36,8 +36,8 @@ const AboutMe = () => {
             Apart from this I really enjoy meeting new people, hope we'll meet
             someday.
           </div>
-          <div className="mt-1 font-bold ">Regards,</div>
-          <div className="mt-1 font-bold ">Mohit Thapliyal</div>
+          <div className="mt-5 font-semibold text-highlight">Regards,</div>
+          <div className="mt-4 font-bold text-highlight">Mohit Thapliyal</div>
         </div>
       </div>
     </div>

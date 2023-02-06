@@ -28,7 +28,7 @@ const Project = (props) => {
               <a
                 href={props.link}
                 target={props.title}
-                className="flex items-center gap-2 px-2 py-1 font-mono text-white rounded-full bg-highlight text-md"
+                className="flex items-center gap-2 px-2 py-1 font-mono rounded-full text-secondary bg-highlight text-md"
               >
                 <BiLink className="text-xl" />
                 link

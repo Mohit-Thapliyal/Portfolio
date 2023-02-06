@@ -9,14 +9,14 @@ const animations = {
 
 const AnimatedPage = ({ children }) => {
   return (
-    <motion.div
+    <motion.section
       variants={animations}
       initial="initial"
       animate="animate"
       exit="exit"
     >
       {children}
-    </motion.div>
+    </motion.section>
   );
 };
 

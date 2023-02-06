@@ -45,7 +45,7 @@ const aboutList = [
 ];
 
 const About = () => {
-  const [sectionNumber, setSectionNumber] = useState(1);
+  const [sectionNumber, setSectionNumber] = useState(4);
 
   const [selectedPainting, setSelectedPainting] = useState(null);
   const [showModal, setShowModal] = useState(false);
@@ -74,7 +74,7 @@ const About = () => {
           orientation={selectedOrientation}
         />
       )}
-      <div
+      <section
         id="about"
         className="flex pt-0 md:py-16 flex-col lg:flex-row justify-center items-center w-screen h-[95vh] md:h-screen lg:h-[101vh] gap-2 lg:gap-4"
       >
@@ -124,14 +124,14 @@ const About = () => {
         </ul>
 
         {/* <div className="w-11/12 overflow-y-scroll rounded-sm shadow-lg h-4/6 md:h-5/6 lg:w-4/6 lg:h-5/6 bg-[#2c1059]"> */}
-        <div className="w-11/12 overflow-y-scroll rounded-sm shadow-lg h-4/6 md:h-5/6 lg:w-4/6 lg:h-5/6 bg-notertiary">
+        <div className="w-11/12 overflow-y-scroll rounded-sm shadow-lg h-4/6 md:h-5/6 lg:w-4/6 lg:h-5/6 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-highlight via-tertiary to-highlight">
           {sectionNumber === 1 && <AboutMe/>}
           {sectionNumber === 2 && <Education />}
           {sectionNumber === 3 && <Work />}
           {sectionNumber === 4 && <Hobby onShowModal={showModalHandler} />}
           {sectionNumber === 5 && <Certification />}
         </div>
-      </div>
+      </section>
     </AnimatedPage>
   );
 };
