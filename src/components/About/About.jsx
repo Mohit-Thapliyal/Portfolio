@@ -10,6 +10,7 @@ import Modal from "../UI/Modal";
 import AboutMe from "./AboutMe/AboutMe";
 import Certification from "./Certification/Certification";
 import AnimatedPage from "../UI/AnimatedPage";
+import { AnimatePresence } from "framer-motion";
 
 const aboutList = [
   {
@@ -67,6 +68,7 @@ const About = () => {
 
   return (
     <AnimatedPage>
+      <AnimatePresence mode="wait">
       {showModal && (
         <Modal
           painting={selectedPainting}
@@ -74,6 +76,7 @@ const About = () => {
           orientation={selectedOrientation}
         />
       )}
+      </AnimatePresence>
       <section
         id="about"
         className="flex pt-0 md:py-16 flex-col lg:flex-row justify-center items-center w-screen h-[95vh] md:h-screen lg:h-[101vh] gap-2 lg:gap-4"

@@ -1,20 +1,33 @@
 import React from "react";
 import { AiOutlineGithub } from "react-icons/ai";
 import { BiLink } from "react-icons/bi";
+import { motion } from "framer-motion";
 
 const Project = (props) => {
   return (
-    <div>
-      <div className="flex flex-col items-center justify-center">
+    <div className="transition-all duration-300 ease-in-out cursor-pointer hover:scale-105">
+      <motion.div
+        initial={{y:20, opacity: 0, scale: 0.3 }}
+        animate={{
+          y:0,
+          opacity: 1,
+          scale: 1
+        }}
+        transition={{
+          delay: 0.3,
+          duration: 0.6,
+        }}
+        onClick={() => {
+          props.onShowModal(1, props.image);
+        }}
+        className="flex flex-col items-center justify-center"
+      >
         <div className="w-11/12 overflow-hidden bg-tertiary rounded-2xl">
           <div className="h-40 p-2 pb-0 md:h-40 lg:h-40 xl:h-52">
             <img
               className="w-full h-full border-b rounded-lg cursor-pointer rounded-t-xl"
               src={props.image}
               alt="project-img"
-              onClick={() => {
-                props.onShowModal(1, props.image);
-              }}
             />
           </div>
           <div className="p-5">
@@ -28,7 +41,7 @@ const Project = (props) => {
               <a
                 href={props.link}
                 target={props.title}
-                className="flex items-center gap-2 px-2 py-1 font-mono rounded-full text-secondary bg-highlight text-md"
+                className="flex items-center gap-2 px-2 py-1 font-mono duration-300 ease-in-out rounded-full hover:scale-110 text-secondary bg-highlight text-md"
               >
                 <BiLink className="text-xl" />
                 link
@@ -44,7 +57,7 @@ const Project = (props) => {
               <a
                 href={props.github}
                 target={props.title}
-                className="flex items-center gap-2 px-2 py-1 font-mono text-white rounded-full bg-primary text-md"
+                className="flex items-center gap-2 px-2 py-1 font-mono text-white duration-300 ease-in-out rounded-full hover:scale-110 bg-primary text-md"
               >
                 <AiOutlineGithub className="text-xl text-white" />
                 github
@@ -58,7 +71,7 @@ const Project = (props) => {
             )}
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

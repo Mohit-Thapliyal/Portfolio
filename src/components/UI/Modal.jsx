@@ -1,5 +1,6 @@
 import React from "react";
 import { IoClose } from "react-icons/io5";
+import { motion } from "framer-motion";
 
 const Modal = (props) => {
   return (
@@ -9,7 +10,18 @@ const Modal = (props) => {
         className="fixed inset-0 z-10 flex justify-center w-screen h-screen bg-black opacity-60"
       ></div>
       {props.orientation === 0 && (
-        <div className="relative z-20 p-1 overflow-hidden bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-highlight via-tertiary to-highlight rounded-sm w-fit lg:rounded-lg">
+        <motion.div
+          initial={{ y: 20, opacity: 0 }}
+          animate={{
+            y: 0,
+            opacity: 1,
+          }}
+          transition={{
+            duration: 0.5,
+          }}
+          exit={{ y: -20, opacity: 0 }}
+          className="relative z-20 p-1 overflow-hidden bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-highlight via-tertiary to-highlight rounded-sm w-fit lg:rounded-lg"
+        >
           <div className="w-full h-1/2">
             <img
               src={props.painting}
@@ -23,10 +35,21 @@ const Modal = (props) => {
               <IoClose className="text-lg lg:text-3xl" />
             </div>
           </div>
-        </div>
+        </motion.div>
       )}
       {props.orientation === 1 && (
-        <div className="relative z-20 p-1 overflow-hidden bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-highlight via-tertiary to-highlight rounded-sm lg:rounded-lg">
+        <motion.div
+          initial={{ y: 20, opacity: 0 }}
+          animate={{
+            y: 0,
+            opacity: 1,
+          }}
+          transition={{
+            duration: 0.5,
+          }}
+          exit={{ y: -20, opacity: 0 }}
+          className="relative z-20 p-1 overflow-hidden bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-highlight via-tertiary to-highlight rounded-sm lg:rounded-lg"
+        >
           <div className="w-full h-1/2">
             <img
               src={props.painting}
@@ -40,7 +63,7 @@ const Modal = (props) => {
               <IoClose className="text-lg lg:text-3xl" />
             </div>
           </div>
-        </div>
+        </motion.div>
       )}
     </div>
   );

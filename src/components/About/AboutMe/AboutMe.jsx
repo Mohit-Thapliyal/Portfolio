@@ -1,16 +1,20 @@
 import React from "react";
-import {motion} from 'framer-motion'
-import { fadeInContainer, fadeInItem } from "../../../utils/motion";
+import { motion } from "framer-motion";
 
 const AboutMe = () => {
   return (
-    <motion.div
-    variants={fadeInContainer}
-    initial="hidden"
-    animate="visible"
-      className="flex items-center justify-between min-h-full p-1 md:h-full md:p-3 lg:p-5 xl:p-7 text-shadow-md"
-    >
-      <motion.div variants={fadeInItem} className="flex flex-col items-center justify-center h-full px-2 py-3 font-medium text-center rounded-md bg-nosecondary xl:py-6 xl:px-5 font-edusa md:text-lg lg:text-lg xl:text-2xl">
+    <div className="flex items-center justify-between min-h-full p-1 md:h-full md:p-3 lg:p-5 xl:p-7 text-shadow-md">
+      <motion.div
+        initial={{ y: 20, opacity: 0 }}
+        animate={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{
+          duration: 0.7,
+        }}
+        className="flex flex-col items-center justify-center h-full px-2 py-3 font-medium text-center rounded-md bg-nosecondary xl:py-6 xl:px-5 font-edusa md:text-lg lg:text-lg xl:text-2xl"
+      >
         <h2 className="font-bold text-highlight">Namaste! Everyone, </h2>
         <p className="mt-5">Hope you all are doing well.</p>
         <div className="mt-1">
@@ -45,7 +49,7 @@ const AboutMe = () => {
           <div className="mt-4 font-bold text-highlight">Mohit Thapliyal</div>
         </div>
       </motion.div>
-    </motion.div>
+    </div>
   );
 };
 

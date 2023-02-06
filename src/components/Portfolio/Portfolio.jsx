@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import Modal from "../UI/Modal";
 import Project from "./Project";
-import AnimatedPage from '../UI/AnimatedPage'
+import AnimatedPage from "../UI/AnimatedPage";
 import { projects } from "../../data";
-
-
+import { AnimatePresence } from "framer-motion";
 
 const Portfolio = () => {
   const [selectedPainting, setSelectedPainting] = useState(null);
@@ -57,13 +56,15 @@ const Portfolio = () => {
   };
   return (
     <AnimatedPage>
-      {showModal && (
-        <Modal
-          painting={selectedPainting}
-          onClose={hideModalHandler}
-          orientation={selectedOrientation}
-        />
-      )}
+      <AnimatePresence mode="wait">
+        {showModal && (
+          <Modal
+            painting={selectedPainting}
+            onClose={hideModalHandler}
+            orientation={selectedOrientation}
+          />
+        )}
+      </AnimatePresence>
       <section
         id="portfolio"
         className="w-screen md:px-[2.5rem] xl:px-[5rem] h-[95vh] md:h-screen md:py-[10vh] lg:py-[19vh] xl:py-[24vh] flex flex-col justify-center"

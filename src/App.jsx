@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="flex flex-col items-center overflow-x-hidden antialiased text-white App bg-primary">
       <Navbar />
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence mode="wait">
         <Routes key={location.pathname} location={location}>
           <Route path="/" element={<Main />} />
           <Route path="/about" element={<About />} />
