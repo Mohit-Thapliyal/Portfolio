@@ -21,12 +21,12 @@ module.exports = {
         // highlight: "#FB7185",
 
         // purple theme
-        primary: "#00005C",
-        secondary: "#3B185F",
-        tertiary: "#C060A1",
-        nosecondary: "#3B185F",
-        notertiary: "#C060A1",
-        highlight: "#F0CAA3",
+        // primary: "#00005C",
+        // secondary: "#3B185F",
+        // tertiary: "#C060A1",
+        // nosecondary: "#3B185F",
+        // notertiary: "#C060A1",
+        // highlight: "#F0CAA3",
 
         // Brick theme
         // primary: "#290001",
@@ -45,12 +45,12 @@ module.exports = {
         // highlight: "#21E6C1",
 
         // Green theme
-        // primary: "#000000",
-        // secondary: "#3E432E",
-        // tertiary: "#616F39",
-        // nosecondary: "#3E432E",
-        // notertiary: "#616F39",
-        // highlight: "#FEC260",
+        primary: "#000000",
+        secondary: "#3E432E",
+        tertiary: "#616F39",
+        nosecondary: "#3E432E",
+        notertiary: "#616F39",
+        highlight: "#FEC260",
         
         // highlight: "#A7D129",
       }

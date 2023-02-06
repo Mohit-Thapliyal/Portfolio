@@ -18,6 +18,7 @@ const Skills = () => {
               source={skillIcon.source}
               alt={skillIcon.alt}
               title={skillIcon.title}
+              url={skillIcon.url}
             />
           ))}
         </div>
