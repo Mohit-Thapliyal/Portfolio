@@ -45,7 +45,7 @@ const aboutList = [
 ];
 
 const About = () => {
-  const [sectionNumber, setSectionNumber] = useState(4);
+  const [sectionNumber, setSectionNumber] = useState(2);
 
   const [selectedPainting, setSelectedPainting] = useState(null);
   const [showModal, setShowModal] = useState(false);
