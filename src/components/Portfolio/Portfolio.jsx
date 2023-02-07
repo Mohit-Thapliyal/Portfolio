@@ -67,8 +67,10 @@ const Portfolio = () => {
       </AnimatePresence>
       <section
         id="portfolio"
-        className="w-screen md:px-[2.5rem] xl:px-[5rem] h-[95vh] md:h-screen md:py-[10vh] lg:py-[19vh] xl:py-[24vh] flex flex-col justify-center"
+        className="w-screen relative md:px-[2.5rem] xl:px-[5rem] h-[95vh] md:h-screen md:py-[10vh] lg:py-[19vh] xl:py-[24vh] flex flex-col justify-center"
       >
+        <div className="absolute left-0 z-[5] md:w-[6vw] lg:w-[5vw] xl:w-[6vw] h-screen bg-primary"/>
+        <div className="absolute right-0 z-[5] md:w-[6vw] lg:w-[5vw] xl:w-[6vw] h-screen bg-primary"/>
         <div>
           <Slider {...settings}>
             {projects.map((project) => (

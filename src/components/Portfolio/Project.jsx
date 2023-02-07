@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Project = (props) => {
   return (
-    <div className="transition-all duration-300 ease-in-out cursor-pointer hover:scale-105">
+    <div className="transition-all duration-300 ease-in-out cursor-default hover:scale-105">
       <motion.div
         initial={{y:20, opacity: 0, scale: 0.8 }}
         animate={{
@@ -17,13 +17,13 @@ const Project = (props) => {
           delay: 0.3,
           duration: 0.5,
         }}
-        onClick={() => {
-          props.onShowModal(1, props.image);
-        }}
         className="flex flex-col items-center justify-center"
       >
         <div className="w-11/12 overflow-hidden bg-tertiary rounded-2xl">
-          <div className="h-40 p-2 pb-0 md:h-40 lg:h-40 xl:h-52">
+          <div 
+        onClick={() => {
+          props.onShowModal(1, props.image);
+        }} className="h-40 p-2 pb-0 md:h-40 lg:h-40 xl:h-52">
             <img
               className="w-full h-full border-b rounded-lg cursor-pointer rounded-t-xl"
               src={props.image}
