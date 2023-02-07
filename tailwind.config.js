@@ -30,8 +30,8 @@ module.exports = {
         // highlight: "#F0CAA3",
 
         // Brick theme
-        primary: "#000000",
-        // primary: "#290001",
+        primary: "#210808",
+        // primary: "#000000",
         secondary: "#461111",
         tertiary: "#A13333",
         nosecondary: "#461111",
@@ -55,6 +55,15 @@ module.exports = {
         // highlight: "#FEC260",
         
         // highlight: "#A7D129",
+
+        // Crio theme
+        // primary: "#023437",
+        // secondary: "#01644A",
+        // tertiary: "#05B683",
+        // nosecondary: "#01644A",
+        // notertiary: "#05B683",
+        // highlight: "#eedb32",
+
       }
     },
   },
