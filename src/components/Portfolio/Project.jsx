@@ -19,7 +19,7 @@ const Project = (props) => {
         }}
         className="flex flex-col items-center justify-center"
       >
-        <div className="w-11/12 overflow-hidden bg-tertiary rounded-2xl">
+        <div className="w-11/12 overflow-hidden border-b border-l border-highlight bg-tertiary rounded-2xl">
           <div 
         onClick={() => {
           props.onShowModal(1, props.image);
@@ -36,7 +36,7 @@ const Project = (props) => {
               {props.description}
             </div>
           </div>
-          <div className="flex gap-3 px-5 pt-5 pb-3 bg-secondary rounded-t-md">
+          <div className="flex gap-3 px-5 pt-5 pb-3 bg-secondary">
             {props.link && (
               <a
                 href={props.link}
