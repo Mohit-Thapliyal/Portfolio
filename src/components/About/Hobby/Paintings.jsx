@@ -34,22 +34,6 @@ const Paintings = (props) => {
             </motion.div>
           ))}
         </motion.div>
-        {/* <motion.div variants={fadeInContainer} initial="hidden" animate="visible" className="grid grid-flow-col grid-cols-1 grid-rows-4 gap-8 lg:grid-rows-2 lg:grid-cols-2 lg:px-10">
-          {landscapePaintngs.map((landscapePaintng) => (
-            <motion.div variants={fadeInItem} key={landscapePaintng.id}>
-              <img
-                src={landscapePaintng.painting}
-                alt={landscapePaintng.title}
-                title={landscapePaintng.title}
-                loading="lazy"
-                className="duration-200 rounded-lg hover:scale-110"
-                onClick={() => {
-                  props.onShowModal(1, landscapePaintng.painting);
-                }}
-              />
-            </motion.div>
-          ))}
-        </motion.div> */}
       </div>
     </>
   );

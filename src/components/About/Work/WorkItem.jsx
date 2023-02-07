@@ -1,11 +1,18 @@
 import React from "react";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import { fadeInItem } from "../../../utils/motion";
 
 const WorkItem = (props) => {
   return (
     <>
-      <motion.li variants={fadeInItem} className="flex p-3 py-5 text-left duration-200 rounded-lg shadow-lg cursor-default font-nunito lg:justify-between bg-nosecondary lg:px-5 lg:py-6 lg:hover:scale-105">
+      <motion.li
+        variants={fadeInItem}
+        whileHover={{
+          scale: 1.07,
+          transition: { duration: 0.2 },
+        }}
+        className="flex p-3 py-5 text-left duration-200 rounded-lg shadow-lg cursor-default font-nunito lg:justify-between bg-nosecondary lg:px-5 lg:py-6 lg:hover:scale-105"
+      >
         <div className="space-y-1 lg:w-3/6">
           <h2 className="text-lg font-bold leading-tight font-quicksand lg:leading-normal lg:text-xl">
             {props.jobRole}

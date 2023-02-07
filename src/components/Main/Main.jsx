@@ -27,6 +27,10 @@ const Main = () => {
         >
           <motion.div
             variants={fadeInItem}
+            whileHover={{
+              scale: 1.07,
+              transition: { duration: 0.03 },
+            }}
             className="flex justify-center bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-highlight via-tertiary to-secondary w-7/12  rounded-3xl md:rounded-[1em] hover:scale-105 duration-300 ease-linear md:justify-end md:w-5/12 lg:w-3/12"
           >
             <img
@@ -37,6 +41,10 @@ const Main = () => {
           </motion.div>
           <motion.div
             variants={fadeInItem}
+            whileHover={{
+              scale: 1.07,
+              transition: { duration: 0.03 },
+            }}
             className="w-5/6 p-3 py-5 text-left bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-secondary via-tertiary to-secondary duration-300 ease-linear rounded-lg md:w-8/12 lg:w-6/12 md:p-10 lg:pb-8 lg:p-10 xl:pb-16"
           >
             <h3 className="text-xl font-medium text-shadow-md md:text-4xl">

@@ -1,11 +1,18 @@
 import React from "react";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import { fadeInItem } from "../../../utils/motion";
 
 const EducationItem = (props) => {
   return (
     <>
-      <motion.li variants={fadeInItem} className="flex p-3 text-left duration-200 rounded-lg shadow-lg cursor-default bg-nosecondary font-nunito lg:justify-between lg:px-5 lg:py-6 lg:hover:scale-105">
+      <motion.li
+        variants={fadeInItem}
+        whileHover={{
+          scale: 1.07,
+          transition: { duration: 0.2 },
+        }}
+        className="flex p-3 text-left duration-200 rounded-lg shadow-lg cursor-default bg-nosecondary font-nunito lg:justify-between lg:px-5 lg:py-6 lg:hover:scale-105"
+      >
         <div className="space-y-1 lg:w-3/6">
           <h2 className="text-lg font-bold leading-tight font-edusa lg:leading-normal lg:text-xl">
             {props.uniName},
