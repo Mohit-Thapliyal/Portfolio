@@ -6,7 +6,7 @@ import { fadeInContainer } from "../../../utils/motion";
 
 const Education = () => {
   return (
-    <motion.ul variants={fadeInContainer} initial="hidden" whileInView="visible" className="flex flex-col gap-10 px-3 py-5 lg:px-12 lg:py-10">
+    <motion.ul variants={fadeInContainer} initial="hidden" whileInView="visible" className="flex flex-col gap-5 px-3 py-5 lg:gap-10 lg:px-12 lg:py-10">
       {educationDetails.map((educationDetail) => (
         <EducationItem
           key={educationDetail.id}

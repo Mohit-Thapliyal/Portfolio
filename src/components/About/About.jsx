@@ -128,7 +128,7 @@ const About = () => {
         </ul>
 
         {/* <div className="w-11/12 overflow-y-scroll rounded-sm shadow-lg h-4/6 md:h-5/6 lg:w-4/6 lg:h-5/6 bg-[#2c1059]"> */}
-        <div className="w-11/12 overflow-y-scroll rounded-sm shadow-lg h-4/6 md:h-5/6 lg:w-4/6 lg:h-5/6 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-highlight via-tertiary to-highlight">
+        <div className="w-11/12 overflow-y-scroll scrollbar-hide rounded-sm shadow-lg h-4/6 md:h-5/6 lg:w-4/6 lg:h-5/6 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-highlight via-tertiary to-highlight">
           {sectionNumber === 1 && <AboutMe/>}
           {sectionNumber === 2 && <Education />}
           {sectionNumber === 3 && <Work />}

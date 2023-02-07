@@ -6,7 +6,7 @@ import { fadeInContainer } from "../../../utils/motion";
 
 const Work = () => {
   return (
-    <motion.ul variants={fadeInContainer} initial="hidden" animate="visible" className="flex flex-col gap-10 px-3 py-5 lg:px-12 lg:py-10">
+    <motion.ul variants={fadeInContainer} initial="hidden" animate="visible" className="flex flex-col gap-5 px-3 py-5 lg:gap-10 lg:px-12 lg:py-10">
       {workDetails.map((workDetail, i) => (
         <WorkItem
           key={`w${i}`}
