@@ -21,20 +21,22 @@ module.exports = {
         // highlight: "#FB7185",
 
         // purple theme
-        primary: "#00005C",
-        secondary: "#3B185F",
-        tertiary: "#C060A1",
-        nosecondary: "#3B185F",
-        notertiary: "#C060A1",
-        highlight: "#F0CAA3",
+        // primary: "#00005C",
+        // primary: "#000000",
+        // secondary: "#3B185F",
+        // tertiary: "#C060A1",
+        // nosecondary: "#3B185F",
+        // notertiary: "#C060A1",
+        // highlight: "#F0CAA3",
 
         // Brick theme
+        primary: "#000000",
         // primary: "#290001",
-        // secondary: "#461111",
-        // tertiary: "#A13333",
-        // nosecondary: "#461111",
-        // notertiary: "#A13333",
-        // highlight: "#FEC260",
+        secondary: "#461111",
+        tertiary: "#A13333",
+        nosecondary: "#461111",
+        notertiary: "#A13333",
+        highlight: "#FEC260",
 
         // Blue theme
         // primary: "#071E3D",

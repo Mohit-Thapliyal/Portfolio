@@ -17,28 +17,28 @@ const Footer = () => {
         <a
           target="facebook"
           href="https://www.facebook.com/profile.php?id=100010237621145"
-          className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-125"
+          className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-150"
         >
           <IoLogoFacebook />
         </a>
         <a
           target="github"
           href="https://github.com/Mohit-Thapliyal"
-          className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-125"
+          className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-150"
         >
           <IoLogoGithub />
         </a>
         <a
           target="linkedin"
           href="https://www.linkedin.com/in/mohit-thapliyal-b20104146/"
-          className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-125"
+          className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-150"
         >
           <IoLogoLinkedin />
         </a>
         <a
           target="instagram"
           href="https://www.instagram.com/mohitthapliyal100/"
-          className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-125"
+          className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-150"
         >
           <IoLogoInstagram />
         </a>

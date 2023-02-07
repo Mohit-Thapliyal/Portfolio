@@ -79,7 +79,7 @@ const Contact = () => {
               <a
                 href="https://www.buymeacoffee.com/mohitthapliyal"
                 target="buymeacoffee"
-                className="inline-flex items-center px-2 py-1 mt-2 space-x-2 duration-300 rounded-md bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-highlight to-tertiary xl:mt-4 sm:hover:scale-105"
+                className="inline-flex items-center px-2 py-1 mt-2 space-x-2 duration-300 rounded-md bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-highlight to-tertiary xl:mt-4 sm:hover:scale-110"
               >
                 <SiBuymeacoffee className="text-2xl text-secondary" />
                 <span className="font-semibold font-edusa text-secondary">
@@ -88,7 +88,7 @@ const Contact = () => {
               </a>
             </div>
             <div className="flex flex-col space-y-1 sm:space-y-6">
-              <div>
+              <div className="transition-all duration-300 ease-in-out cursor-pointer w-fit hover:scale-110">
                 <a
                   href="tel:+917011681275"
                   className="flex items-center space-x-2"
@@ -97,7 +97,7 @@ const Contact = () => {
                   <span>+91 701 168 1275</span>
                 </a>
               </div>
-              <div>
+              <div className="transition-all duration-300 ease-in-out cursor-pointer w-fit hover:scale-110">
                 <a
                   href="mailto:mohitthapliyal100@gmail.com"
                   className="flex items-center space-x-2"
@@ -106,7 +106,7 @@ const Contact = () => {
                   <span>mohitthapliyal100@gmail.com</span>
                 </a>
               </div>
-              <div>
+              <div className="transition-all duration-300 ease-in-out cursor-pointer w-fit hover:scale-110">
                 <p className="flex items-center space-x-2" href="">
                   <IoLocationSharp className="text-xl text-highlight" />
                   <span>New Delhi, India</span>
@@ -118,21 +118,28 @@ const Contact = () => {
                 <a
                   target="facebook"
                   href="https://www.facebook.com/profile.php?id=100010237621145"
+                  className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-150"
                 >
                   <IoLogoFacebook />
                 </a>
-                <a target="github" href="https://github.com/Mohit-Thapliyal">
+                <a
+                  target="github"
+                  href="https://github.com/Mohit-Thapliyal"
+                  className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-150"
+                >
                   <IoLogoGithub />
                 </a>
                 <a
                   target="linkedin"
                   href="https://www.linkedin.com/in/mohit-thapliyal-b20104146/"
+                  className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-150"
                 >
                   <IoLogoLinkedin />
                 </a>
                 <a
                   target="instagram"
                   href="https://www.instagram.com/mohitthapliyal100/"
+                  className="transition-all duration-300 ease-in-out hover:text-highlight hover:scale-150"
                 >
                   <IoLogoInstagram />
                 </a>
