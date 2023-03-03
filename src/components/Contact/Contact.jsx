@@ -148,14 +148,13 @@ const Contact = () => {
           </div>
           <div>
             <motion.div
-              initial={{ y: 20, opacity: 0 }}
+              initial={{ y: 40, opacity: 0 }}
               animate={{
                 y: 0,
                 opacity: 1,
               }}
               transition={{
-                delay: 0.4,
-                duration: 0.7,
+                duration: 0.5,
               }}
               className="p-8 py-5 text-gray-100 shadow-lg bg-tertiary rounded-xl xl:py-9 lg:w-96"
             >
@@ -165,33 +164,33 @@ const Contact = () => {
                 className="flex flex-col space-y-4"
               >
                 <div>
-                  <label htmlFor="contact-name" className="text-sm">
+                  <label htmlFor="contact-name" className="text-sm font-semibold text-shadow-lg">
                     Your Name
                   </label>
                   <input
                     id="contact-name"
                     name="user_name"
                     type="text"
-                    placeholder="Your Name"
+                    placeholder="Enter your name"
                     className="w-full px-4 py-2 mt-2 rounded-md outline-none ring-1 ring-gray-300 focus:ring-2 focus:ring-highlight text-primary"
                     required
                   />
                 </div>
                 <div>
-                  <label htmlFor="contact-email" className="text-sm">
+                  <label htmlFor="contact-email" className="text-sm font-semibold text-shadow-lg">
                     Email Address
                   </label>
                   <input
                     id="contact-email"
                     name="user_email"
                     type="email"
-                    placeholder="Email Address"
+                    placeholder="Enter your email address"
                     className="w-full px-4 py-2 mt-2 rounded-md outline-none ring-1 ring-gray-300 focus:ring-2 focus:ring-highlight text-primary"
                     required
                   />
                 </div>
                 <div>
-                  <label htmlFor="contact-msg" className="text-sm">
+                  <label htmlFor="contact-msg" className="text-sm font-semibold text-shadow-lg">
                     Message
                   </label>
                   <textarea
@@ -199,7 +198,7 @@ const Contact = () => {
                     name="message"
                     rows="4"
                     type="text"
-                    placeholder="Message"
+                    placeholder="Write your message"
                     className="w-full px-4 py-2 mt-2 rounded-md outline-none ring-1 text-primary ring-gray-300 focus:ring-2 focus:ring-highlight"
                     required
                   />

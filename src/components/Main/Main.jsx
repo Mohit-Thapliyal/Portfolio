@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 
 import profilePic from "../../images/profile/mohit1.png";
 import AnimatedPage from "../UI/AnimatedPage";
-import { fadeInContainer, fadeInItem } from "../../utils/motion";
 
 const Main = () => {
   return (
@@ -20,16 +19,20 @@ const Main = () => {
         </div>
 
         <motion.div
-          variants={fadeInContainer}
-          initial="hidden"
-          whileInView="visible"
           className="flex flex-col cursor-default lg:flex-row-reverse justify-end md:justify-evenly items-center xl:gap-0 gap-7 py-[5vh] md:py-[7vh] lg:py-[17vh] xl:py-[23vh]"
         >
           <motion.div
-            variants={fadeInItem}
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{
+              scale: 1,
+              opacity: 1,
+            }}
             whileHover={{
-              scale: 1.07,
-              transition: { duration: 0.03 },
+              scale: 1.03,
+              transition: { duration: 0.01 },
+            }}
+            transition={{
+              duration: 0.05,
             }}
             className="flex justify-center bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-secondary via-tertiary to-secondary w-7/12  rounded-3xl md:rounded-[1em] hover:scale-105 duration-300 ease-linear md:justify-end md:w-5/12 lg:w-3/12"
           >
@@ -40,10 +43,17 @@ const Main = () => {
             />
           </motion.div>
           <motion.div
-            variants={fadeInItem}
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{
+              scale: 1,
+              opacity: 1,
+            }}
             whileHover={{
-              scale: 1.07,
-              transition: { duration: 0.03 },
+              scale: 1.03,
+              transition: { duration: 0.01 },
+            }}
+            transition={{
+              duration: 0.05,
             }}
             className="w-5/6 p-3 py-5 text-left bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-secondary via-tertiary to-secondary duration-300 ease-linear rounded-lg md:w-8/12 lg:w-6/12 md:p-10 lg:pb-8 lg:p-10 xl:pb-16"
           >

@@ -30,13 +30,12 @@ module.exports = {
         // highlight: "#F0CAA3",
 
         // Brick theme
-        primary: "#210808",
-        // primary: "#000000",
-        secondary: "#461111",
-        tertiary: "#A13333",
-        nosecondary: "#461111",
-        notertiary: "#A13333",
-        highlight: "#FEC260",
+        // primary: "#210808",
+        // secondary: "#461111",
+        // tertiary: "#A13333",
+        // nosecondary: "#461111",
+        // notertiary: "#A13333",
+        // highlight: "#FEC260",
 
         // Blue theme
         // primary: "#071E3D",
@@ -59,10 +58,15 @@ module.exports = {
         // Crio theme
         // primary: "#023437",
         // secondary: "#01644A",
-        // tertiary: "#05B683",
-        // nosecondary: "#01644A",
-        // notertiary: "#05B683",
+
+        primary: "#071f20",
+        secondary: "#023437",
+        tertiary: "#05B683",
+        nosecondary: "#023437",
+        notertiary: "#05B683",
+        highlight: "#EFDB4F",
         // highlight: "#eedb32",
+        // highlight: "#FEC260",
 
       }
     },

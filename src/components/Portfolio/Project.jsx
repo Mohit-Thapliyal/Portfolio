@@ -14,7 +14,6 @@ const Project = (props) => {
           scale: 1
         }}
         transition={{
-          delay: 0.3,
           duration: 0.5,
         }}
         className="flex flex-col items-center justify-center"
@@ -30,9 +29,9 @@ const Project = (props) => {
               alt="project-img"
             />
           </div>
-          <div className="p-5">
-            <h2 className="text-xl font-bold font-quicksand">{props.title}</h2>
-            <div className="h-24 mt-2 text-sm font-medium text-justify select-text lg:text-md font-nunito">
+          <div className="px-3 py-5">
+            <h2 className="text-xl font-bold font-quicksand text-secondary">{props.title}</h2>
+            <div className="h-24 mt-2 text-sm font-semibold text-justify select-text lg:text-md font-quicksand text-secondary">
               {props.description}
             </div>
           </div>
