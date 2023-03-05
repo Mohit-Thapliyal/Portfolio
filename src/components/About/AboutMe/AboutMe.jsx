@@ -45,10 +45,10 @@ const AboutMe = () => {
             instead learn from them because they always teach me something that
             no one can teach.
           </div>
-          <div className="leading-7 md:leading-10 lg:leading-8">
+          {/* <div className="leading-7 md:leading-10 lg:leading-8">
             Apart from this I really enjoy meeting new people, hope we'll meet
             someday.
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col justify-center flex-grow gap-1">

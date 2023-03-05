@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Skill = ({ source, alt, title, index, url }) => {
-  console.log(url)
   return (
     <motion.a
       href={url}

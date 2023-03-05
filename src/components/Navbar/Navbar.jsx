@@ -37,7 +37,7 @@ const Navitems = [
   {
     id: "ni5",
     icon: <BiMessageSquareDetail />,
-    text: "Contactme",
+    text: "Contact Me",
     to: "contact",
   },
 ];

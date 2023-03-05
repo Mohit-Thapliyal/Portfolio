@@ -39,7 +39,7 @@ const Project = (props) => {
             {props.link && (
               <a
                 href={props.link}
-                target={props.title}
+                target={props.id+"1"}
                 className="flex items-center gap-2 px-2 py-1 font-mono duration-300 ease-in-out rounded-full hover:scale-110 text-secondary bg-highlight text-md"
               >
                 <BiLink className="text-xl" />
@@ -55,7 +55,7 @@ const Project = (props) => {
             {props.github && (
               <a
                 href={props.github}
-                target={props.title}
+                target={props.id+"2"}
                 className="flex items-center gap-2 px-2 py-1 font-mono text-white duration-300 ease-in-out rounded-full hover:scale-110 bg-primary text-md"
               >
                 <AiOutlineGithub className="text-xl text-white" />

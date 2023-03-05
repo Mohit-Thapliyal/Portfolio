@@ -59,7 +59,7 @@ module.exports = {
         // primary: "#023437",
         // secondary: "#01644A",
 
-        primary: "#071f20",
+        primary: "#061a1b",
         secondary: "#023437",
         tertiary: "#05B683",
         nosecondary: "#023437",

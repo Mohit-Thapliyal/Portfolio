@@ -21,18 +21,18 @@ const Portfolio = () => {
   };
 
   const settings = {
-    centerMode: true,
+    // centerMode: true,
     dots: true,
-    infinite: true,
-    speed: 500,
+    infinite: false,
+    speed: 800,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
+          slidesToScroll: 3,
           infinite: true,
           dots: true,
         },
@@ -41,7 +41,7 @@ const Portfolio = () => {
         breakpoint: 950,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           initialSlide: 2,
         },
       },
@@ -76,6 +76,7 @@ const Portfolio = () => {
             {projects.map((project) => (
               <Project
                 key={project.id}
+                id={project.id}
                 image={project.image}
                 title={project.title}
                 description={project.description}

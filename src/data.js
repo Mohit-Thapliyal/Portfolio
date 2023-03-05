@@ -19,6 +19,9 @@ import bg4 from "./images/project/project4.jpg";
 import bg5 from "./images/project/project5.jpg";
 import bg6 from "./images/project/project6.jpg";
 import airbnb from "./images/project/AirBnb.jpeg";
+import reunion from "./images/project/reunion.jpeg";
+import formGenerator from "./images/project/formGenerator.jpeg";
+import portfolio from "./images/project/portfolio.jpeg";
 
 // Education Details
 export const educationDetails = [
@@ -288,7 +291,7 @@ export const skillIcons = [
 // Project Details
 export const projects = [
   {
-    id: "pj0",
+    id: "pje",
     image: bg0,
     title: "Netflix Clone",
     description:
@@ -306,8 +309,26 @@ export const projects = [
     github: "https://github.com/Mohit-Thapliyal/Airbnb",
   },
   {
+    id: "pja",
+    image: reunion,
+    title: "Reunion Assignment",
+    description:
+      "SPA with four level on filteration and search functionality. Styled using tailwind and hosted on vercel.",
+    link: "https://reunion-assignment-mohit-thapliyal.vercel.app/",
+    github: "https://github.com/Mohit-Thapliyal/Reunion-Assignment",
+  },
+  {
+    id: "pjb",
+    image: formGenerator,
+    title: "From Generator",
+    description:
+      "A React App for generating complex form from JSON raw data. Validation, metadata and many more features.",
+    link: "https://frontend-assignment-mohit-thapliyal.vercel.app",
+    github: "https://github.com/Mohit-Thapliyal/Frontend-Assignment",
+  },
+  {
     id: "pj1",
-    image: bg1,
+    image: portfolio,
     title: "Portfolio",
     description:
       "My personal website showcases my web designing and web development skills. Beautifully designed with react and tailwind.",
