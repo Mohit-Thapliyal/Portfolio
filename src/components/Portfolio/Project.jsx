@@ -30,8 +30,8 @@ const Project = (props) => {
             />
           </div>
           <div className="px-3 py-5">
-            <h2 className="text-xl font-bold font-quicksand text-secondary">{props.title}</h2>
-            <div className="h-24 mt-2 text-sm font-semibold text-justify select-text lg:text-md font-quicksand text-secondary">
+            <h2 className="text-xl font-extrabold font-quicksand text-primary">{props.title}</h2>
+            <div className="h-24 mt-2 text-sm font-bold text-justify select-text lg:text-base font-quicksand text-secondary">
               {props.description}
             </div>
           </div>

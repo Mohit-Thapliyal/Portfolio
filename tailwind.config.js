@@ -60,9 +60,9 @@ module.exports = {
         // secondary: "#01644A",
 
         primary: "#061a1b",
-        secondary: "#023437",
+        secondary: "#0f4548",
         tertiary: "#05B683",
-        nosecondary: "#023437",
+        nosecondary: "#0f4548",
         notertiary: "#05B683",
         highlight: "#EFDB4F",
         // highlight: "#eedb32",

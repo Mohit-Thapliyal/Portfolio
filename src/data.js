@@ -12,7 +12,6 @@ import painting10 from "./images/painting/painting10.jpg";
 
 // Project Assets
 import bg0 from "./images/project/project0.jpeg";
-import bg1 from "./images/project/project1.jpg";
 import bg2 from "./images/project/project2.jpg";
 import bg3 from "./images/project/project3.jpg";
 import bg4 from "./images/project/project4.jpg";

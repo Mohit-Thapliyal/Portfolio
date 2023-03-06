@@ -40,6 +40,8 @@ const Portfolio = () => {
       {
         breakpoint: 950,
         settings: {
+          centerMode: true,
+          infinite: true,
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
@@ -48,6 +50,8 @@ const Portfolio = () => {
       {
         breakpoint: 480,
         settings: {
+          centerMode: true,
+          infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
         },
