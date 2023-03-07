@@ -299,13 +299,13 @@ export const projects = [
     github: "https://github.com/Mohit-Thapliyal/netflix-clone-mohit",
   },
   {
-    id: "pj0",
-    image: airbnb,
-    title: "AirBnb Clone",
+    id: "pj5",
+    image: bg6,
+    title: "Shareme",
     description:
-      "Full Responsive AirBnb clone build using Next.js and tailwind. Modern and sleek design.",
-    link: "https://airbnb-mohit-thapliyal.vercel.app",
-    github: "https://github.com/Mohit-Thapliyal/Airbnb",
+      "A platform where you can add images as well as see the images posted by other, uses google authentication, sanit, react and tailwind.",
+    link: "https://shareme.mohitthapliyal.in",
+    github: "https://github.com/Mohit-Thapliyal/shareme",
   },
   {
     id: "pja",
@@ -315,6 +315,15 @@ export const projects = [
       "SPA with four level on filteration and search functionality. Styled using tailwind and hosted on vercel.",
     link: "https://reunion-assignment-mohit-thapliyal.vercel.app/",
     github: "https://github.com/Mohit-Thapliyal/Reunion-Assignment",
+  },
+  {
+    id: "pj0",
+    image: airbnb,
+    title: "AirBnb Clone",
+    description:
+      "Full Responsive AirBnb clone build using Next.js and tailwind. Modern and sleek design.",
+    link: "https://airbnb-mohit-thapliyal.vercel.app",
+    github: "https://github.com/Mohit-Thapliyal/Airbnb",
   },
   {
     id: "pjb",
@@ -335,13 +344,13 @@ export const projects = [
     github: "https://github.com/Mohit-Thapliyal/my-portfolio",
   },
   {
-    id: "pj2",
-    image: bg2,
-    title: "Corporate Wisdom",
+    id: "pj5",
+    image: bg5,
+    title: "Car Price Predictor",
     description:
-      "A Custom designed website for a well-known book author Dr. Meena Sinha.",
-    link: "",
-    github: "",
+      "A Machine Learning project which can predict the selling price of a car based on car details. Build using Flask and Bootstrap.",
+    link: "https://car-price-predictor-mt.herokuapp.com/",
+    github: "https://github.com/Mohit-Thapliyal/Car-Price-Predictor",
   },
   {
     id: "pj3",
@@ -362,21 +371,12 @@ export const projects = [
     github: "",
   },
   {
-    id: "pj5",
-    image: bg5,
-    title: "Car Price Predictor",
+    id: "pj2",
+    image: bg2,
+    title: "Corporate Wisdom",
     description:
-      "A Machine Learning project which can predict the selling price of a car based on car details. Build using Flask and Bootstrap.",
-    link: "https://car-price-predictor-mt.herokuapp.com/",
-    github: "https://github.com/Mohit-Thapliyal/Car-Price-Predictor",
-  },
-  {
-    id: "pj5",
-    image: bg6,
-    title: "Shareme",
-    description:
-      "A platform where you can add images as well as see the images posted by other, uses google authentication, sanit, react and tailwind.",
-    link: "https://shareme.mohitthapliyal.in",
-    github: "https://github.com/Mohit-Thapliyal/shareme",
+      "A Custom designed website for a well-known book author Dr. Meena Sinha.",
+    link: "",
+    github: "",
   },
 ];

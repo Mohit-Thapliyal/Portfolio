@@ -21,17 +21,28 @@ code {
   color: rgb(244 63 94 / var(--tw-text-opacity));
 }
 
-@layer {
-  :root {
-    --color-text-base: 
-  }
-}
-
 .slick-list{
   overflow: visible !important;
 }
 
-
 .slick-arrow{
   z-index: 10 !important;
+}
+
+.slick-dots li.slick-active button:before{
+  color: theme('colors.highlight') !important;
+}
+
+.slick-dots li button:before{
+  color: theme('colors.tertiary') !important;
+  margin-top: 1rem;
+}
+
+.slick-prev:before, .slick-next:before{
+  color: theme('colors.highlight') !important;
+  opacity: 1 !important;
+}
+
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+  opacity: .25 !important;
 }
