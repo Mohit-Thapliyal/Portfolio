@@ -6,10 +6,10 @@ import {
   IoLogoInstagram,
 } from "react-icons/io5";
 
-const Footer = () => {
+const Footer = ({className}) => {
   const date = new Date();
   return (
-    <footer className="md:bg-secondary flex-col-reverse lg:flex-row text-white w-screen gap-4 h-fit py-6 sm:p-10 pb-[8vh] md:pb-[8vh] lg:p-5 xl:p-8 flex justify-around items-center">
+    <footer className={`lg:bg-secondary flex-col-reverse lg:flex-row text-white w-screen gap-4 h-fit py-6 pb-[11vh] sm:pb-[8vh] md:pb-[8vh] lg:p-2 xl:p-4 flex justify-around items-center ${className}`}>
       <div className="font-mono text-sm sm:text-lg">
         <p>All rights reserved © {date.getFullYear()}</p>
       </div>

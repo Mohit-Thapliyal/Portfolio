@@ -3,13 +3,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
 import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Skills from "./components/Skills/Skills";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import NotFound from "./components/UI/NotFound";
 
 function App() {
   const location = useLocation();
@@ -23,7 +23,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/footer" element={<Footer />} />
+          <Route path="/*" element={<NotFound/>} />
         </Routes>
       </AnimatePresence>
     </div>

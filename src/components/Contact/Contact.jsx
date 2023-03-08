@@ -58,7 +58,7 @@ const Contact = () => {
     <AnimatedPage>
       <section
         id="contact"
-        className="flex items-center justify-center w-full lg:min-h-screen"
+        className="relative flex flex-col items-center justify-center w-full lg:min-h-screen"
       >
         {messageSent && (
           <Notification
@@ -66,7 +66,7 @@ const Contact = () => {
             onCloseMessage={closeMessageHandler}
           />
         )}
-        <div className="flex flex-col w-full p-8 space-y-8 shadow-lg lg:flex-row lg:space-x-6 lg:space-y-0 bg-secondary md:p-32 lg:py-6 lg:max-w-4xl xl:max-w-5xl sm:p-6 lg:rounded-xl xl:p-10 xl:py-14 bg-opacity-90 backdrop-blur-lg">
+        <div className="flex flex-col w-full p-8 space-y-8 shadow-lg lg:flex-row lg:space-x-6 lg:space-y-0 bg-secondary md:p-32 lg:py-3 lg:px-4 lg:mt-5 xl:mt-0 lg:max-w-4xl xl:max-w-5xl sm:p-6 lg:rounded-xl xl:p-10 xl:py-14 bg-opacity-90 backdrop-blur-lg">
           <div className="flex flex-col justify-between space-y-4 sm:space-y-0">
             <div>
               <h1 className="text-4xl font-bold tracking-wide">Contact Me</h1>
@@ -205,7 +205,7 @@ const Contact = () => {
                 </div>
                 <button
                   type="submit"
-                  className="py-2 text-sm font-bold uppercase rounded-lg bg-highlight text-primary"
+                  className="py-2 text-sm font-bold uppercase rounded-lg bg-highlight text-primary transition-all duration-300 ease-in-out hover:scale-105 hover:scale-y-110"
                 >
                   Send Message
                 </button>
@@ -213,8 +213,8 @@ const Contact = () => {
             </motion.div>
           </div>
         </div>
+      <Footer className="sticky lg:absolute bottom-0" />
       </section>
-      <Footer />
     </AnimatedPage>
   );
 };
