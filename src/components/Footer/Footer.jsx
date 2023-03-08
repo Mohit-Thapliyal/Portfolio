@@ -10,10 +10,10 @@ const Footer = ({className}) => {
   const date = new Date();
   return (
     <footer className={`lg:bg-secondary flex-col-reverse lg:flex-row text-white w-screen gap-4 h-fit py-6 pb-[11vh] sm:pb-[8vh] md:pb-[8vh] lg:p-2 xl:p-4 flex justify-around items-center ${className}`}>
-      <div className="font-mono text-sm sm:text-lg">
+      <div className="font-mono text-sm sm:text-lg lg:hidden">
         <p>All rights reserved © {date.getFullYear()}</p>
       </div>
-      <div className="flex text-2xl gap-7 lg:gap-8">
+      <div className="flex text-2xl lg:hidden gap-7 lg:gap-8">
         <a
           target="facebook"
           href="https://www.facebook.com/profile.php?id=100010237621145"
@@ -43,6 +43,7 @@ const Footer = ({className}) => {
           <IoLogoInstagram />
         </a>
       </div>
+      
       <div>
         <p className="text-md sm:text-lg font-quicksand">
           Developed by <span className="font-semibold text-highlight">Mohit Thapliyal</span>
