@@ -303,7 +303,7 @@ export const projects = [
     image: bg6,
     title: "Shareme",
     description:
-      "A platform where you can add images as well as see the images posted by other, uses google authentication, sanit, react and tailwind.",
+      "A platform where you can add images as well as see the images posted by other, uses google authentication, sanity, react and tailwind.",
     link: "https://shareme.mohitthapliyal.in",
     github: "https://github.com/Mohit-Thapliyal/shareme",
   },

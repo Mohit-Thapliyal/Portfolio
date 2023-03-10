@@ -12,7 +12,7 @@ import { SiBuymeacoffee } from "react-icons/si";
 import { motion } from "framer-motion";
 
 import Notification from "../UI/Notification";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 import AnimatedPage from "../UI/AnimatedPage";
 
 const Contact = () => {
@@ -58,7 +58,7 @@ const Contact = () => {
     <AnimatedPage>
       <section
         id="contact"
-        className="relative flex flex-col items-center justify-center w-full lg:min-h-screen"
+        className="relative flex flex-col items-center justify-center w-full md:min-h-screen"
       >
         {messageSent && (
           <Notification
@@ -66,8 +66,8 @@ const Contact = () => {
             onCloseMessage={closeMessageHandler}
           />
         )}
-        <div className="flex flex-col w-full p-8 space-y-8 shadow-lg lg:flex-row lg:space-x-6 lg:space-y-0 bg-secondary md:p-32 lg:py-3 lg:px-4 lg:mt-5 xl:mt-0 lg:max-w-4xl xl:max-w-5xl sm:p-6 lg:rounded-xl xl:p-10 xl:py-14 bg-opacity-90 backdrop-blur-lg">
-          <div className="flex flex-col justify-between space-y-4 sm:space-y-0">
+        <div className="flex flex-col w-full p-8 pb-[10vh] space-y-8 shadow-lg lg:flex-row lg:space-x-6 lg:space-y-0 bg-secondary md:p-5 lg:py-5 lg:px-8 lg:mt-5 xl:mt-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl sm:p-6 md:rounded-xl xl:p-10 xl:py-14 bg-opacity-90 backdrop-blur-lg">
+          <div className="flex flex-col justify-between space-y-4 md:space-y-8 lg:space-y-0">
             <div>
               <h1 className="text-4xl font-bold tracking-wide">Contact Me</h1>
               <p className="pt-2 text-sm">
@@ -156,7 +156,7 @@ const Contact = () => {
               transition={{
                 duration: 0.5,
               }}
-              className="p-8 py-5 text-gray-100 shadow-lg bg-tertiary rounded-xl xl:py-9 lg:w-96"
+              className="p-5 py-3 md:px-10 text-gray-100 shadow-lg bg-tertiary rounded-xl lg:p-3 lg:px-5 xl:p-9 lg:w-96"
             >
               <form
                 ref={form}
@@ -205,7 +205,7 @@ const Contact = () => {
                 </div>
                 <button
                   type="submit"
-                  className="py-2 text-sm font-bold uppercase rounded-lg bg-highlight text-primary transition-all duration-300 ease-in-out hover:scale-105 hover:scale-y-110"
+                  className="px-4 py-2 text-sm font-bold uppercase rounded-lg bg-highlight text-primary transition-all duration-300 ease-in-out hover:scale-105 hover:scale-y-110"
                 >
                   Send Message
                 </button>
@@ -213,7 +213,7 @@ const Contact = () => {
             </motion.div>
           </div>
         </div>
-      <Footer className="sticky lg:absolute bottom-0" />
+      {/* <Footer className="hidden sticky lg:absolute bottom-0" /> */}
       </section>
     </AnimatedPage>
   );
