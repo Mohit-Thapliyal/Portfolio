@@ -66,7 +66,7 @@ const Contact = () => {
             onCloseMessage={closeMessageHandler}
           />
         )}
-        <div className="flex flex-col w-full p-8 pb-[10vh] space-y-8 shadow-lg lg:flex-row lg:space-x-6 lg:space-y-0 bg-secondary md:p-5 lg:py-5 lg:px-8 lg:mt-5 xl:mt-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl sm:p-6 md:rounded-xl xl:p-10 xl:py-14 bg-opacity-90 backdrop-blur-lg">
+        <div className="flex flex-col w-full p-8 pb-[10vh] space-y-8 shadow-lg lg:flex-row lg:space-x-6 lg:space-y-0 bg-primary md:bg-secondary md:p-5 lg:py-5 lg:px-8 lg:mt-5 xl:mt-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl sm:p-6 md:rounded-xl xl:p-10 xl:py-14 bg-opacity-90 backdrop-blur-lg">
           <div className="flex flex-col justify-between space-y-4 md:space-y-8 lg:space-y-0">
             <div>
               <h1 className="text-4xl font-bold tracking-wide">Contact Me</h1>

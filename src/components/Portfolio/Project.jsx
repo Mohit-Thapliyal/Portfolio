@@ -35,7 +35,7 @@ const Project = (props) => {
               {props.description}
             </div>
           </div>
-          <div className="flex gap-3 px-5 pt-5 pb-3 bg-secondary">
+          <div className="flex justify-between items-center px-5 py-4 bg-secondary">
             {props.link && (
               <a
                 href={props.link}
