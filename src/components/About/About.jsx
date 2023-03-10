@@ -79,7 +79,7 @@ const About = () => {
       </AnimatePresence>
       <section
         id="about"
-        className="flex pt-0 md:py-16 flex-col lg:flex-row justify-center items-center w-screen h-[95vh] md:h-screen lg:h-[101vh] gap-2 lg:gap-4"
+        className="flex relative pt-0 md:py-16 flex-col lg:flex-row justify-center items-center w-screen h-[95vh] md:h-screen lg:h-[101vh] gap-2 lg:gap-4"
       >
         <div className="hidden lg:flex w-11/12 h-[20vh] md:h-[20vh] lg:w-1/6 lg:h-5/6 text-left border-secondary border-l-[1.8rem] lg:border-l-[2.2rem] font-nunito">
           <ul className="flex flex-col select-none justify-evenly">
@@ -135,6 +135,11 @@ const About = () => {
           {sectionNumber === 4 && <Hobby onShowModal={showModalHandler} />}
           {sectionNumber === 5 && <Certification />}
         </div>
+        
+        <div className=" rounded-full lg:blur-[150px] top-0 left-0 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
+        <div className=" rounded-full lg:blur-[150px] top-10 left-10 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" /> 
+        <div className=" rounded-full lg:blur-[150px] bottom-0 right-0 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
+        <div className=" rounded-full lg:blur-[150px] bottom-10 right-10 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
       </section>
     </AnimatedPage>
   );

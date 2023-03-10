@@ -91,6 +91,10 @@ const Portfolio = () => {
             ))}
           </Slider>
         </div>
+        <div className=" rounded-full z-10 lg:blur-[150px] top-0 left-0 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
+        <div className=" rounded-full z-10 lg:blur-[150px] top-10 left-10 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" /> 
+        <div className=" rounded-full z-10 lg:blur-[150px] bottom-0 right-0 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
+        <div className=" rounded-full z-10 lg:blur-[150px] bottom-10 right-10 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
       </section>
     </AnimatedPage>
   );
