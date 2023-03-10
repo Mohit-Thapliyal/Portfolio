@@ -341,7 +341,7 @@ export const projects = [
     description:
       "My personal website showcases my web designing and web development skills. Beautifully designed with react and tailwind.",
     link: "https://mohitthapliyal.in",
-    github: "https://github.com/Mohit-Thapliyal/my-portfolio",
+    github: "https://github.com/Mohit-Thapliyal/Portfolio",
   },
   {
     id: "pj5",
