@@ -3,7 +3,6 @@ import { HiDownload } from "react-icons/hi";
 import { motion } from "framer-motion";
 import ReactTypingEffect from "react-typing-effect";
 
-// import profilePic from "../../images/profile/mohit1.png";
 import profilePic from "../../images/profile/mohit.png";
 import AnimatedPage from "../UI/AnimatedPage";
 
@@ -34,8 +33,6 @@ const Main = () => {
             transition={{
               duration: 0.05,
             }}
-            // className="flex justify-center bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-secondary via-tertiary to-secondary w-7/12  rounded-3xl md:rounded-[1em] hover:scale-105 duration-300 ease-linear md:justify-end md:w-5/12 lg:w-3/12"
-            // className="flex justify-center bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-600 to-secondary w-7/12  rounded-3xl md:rounded-[1em] hover:scale-105 duration-300 ease-linear md:justify-end md:w-5/12 lg:w-3/12"
             className="flex justify-center w-7/12 hover:scale-105 duration-300 ease-linear md:justify-end md:w-5/12 lg:w-3/12"
           >
             {/* <img
@@ -62,19 +59,10 @@ const Main = () => {
             transition={{
               duration: 0.05,
             }}
-            // className="w-5/6 p-3 py-5 text-left bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-secondary via-tertiary to-secondary duration-300 ease-linear rounded-lg md:w-8/12 lg:w-6/12 md:p-10 lg:pb-8 lg:p-10 xl:pb-16"
-            // className="w-5/6 p-3 py-5 text-left bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary duration-300 ease-linear rounded-lg md:w-8/12 lg:w-6/12 md:p-10 lg:pb-8 lg:p-10 xl:pb-16"
             className="relative  w-5/6 p-3 py-5 text-left duration-300 ease-linear rounded-lg md:w-8/12 lg:w-6/12 md:p-10 lg:pb-8 lg:p-10 xl:pb-16"
           >
-            {/* <div className=" rounded-full blur-[50px] lg:blur-[100px] top-0 left-0 h-2/5 w-2/5 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
-            <div className=" rounded-full blur-[50px] lg:blur-[100px] top-1/2 left-3/4 h-2/5 w-2/5 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" /> */}
             <div className=" rounded-full blur-[100px] lg:blur-[150px] top-10 left-1/4 h-2/5 w-2/5 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
             <div className=" rounded-full blur-[100px] lg:blur-[150px] top-10 left-10 h-2/5 w-2/5 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
-            {/* <div className=" rounded-full blur-[40px] lg:blur-[100px] top-0 left-2/4 h-2/5 w-2/5 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" /> */}
-            {/* <div className=" inline lg:hidden rounded-full blur-[100px] lg:blur-[120px] bottom-0 left-0 h-2/5 w-2/5 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" /> */}
-            {/* <h3 className="text-xl font-medium text-shadow-md md:text-4xl">
-              Namaste!
-            </h3> */}
             <div className="flex flex-col gap-2 md:gap-5 lg: z-10 relative">
               <h1 className=" text-3xl tracking-normal md:text-5xl xl:text-6xl font-extrabold uppercase text-highlight text-shadow-lg">
                 Mohit <span className=" text-white">Thapliyal</span>
@@ -87,9 +75,6 @@ const Main = () => {
                 eraseDelay={5000}
                 typingDelay={50}
                 />
-                {/* <span className="inline-block px-2 py-1 text-sm font-semibold tracking-widest text-white md:text-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                  Front End Developer
-                </span> */}
               </h4>
 
               <p className="font-sans my-2 text-xs leading-5 font-medium lg:leading-7 text-justify text-shadow-sm md:w-4/5 lg:w-full xl:w-4/5 lg:text-base">
