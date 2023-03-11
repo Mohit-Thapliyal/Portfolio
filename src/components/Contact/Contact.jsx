@@ -222,10 +222,6 @@ const Contact = () => {
             </motion.div>
           </div>
         </div>
-        <div className=" rounded-full lg:blur-[150px] top-0 -left-52 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
-        <div className=" rounded-full lg:blur-[150px] top-10 -left-44 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
-        <div className=" rounded-full lg:blur-[150px] bottom-0 -right-52 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
-        <div className=" rounded-full lg:blur-[150px] bottom-10 -right-44 lg:h-40 lg:w-40 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary via-teal-700 to-tertiary absolute" />
       </section>
     </AnimatedPage>
   );
