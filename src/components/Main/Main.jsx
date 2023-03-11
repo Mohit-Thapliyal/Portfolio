@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { HiDownload } from "react-icons/hi";
 import { motion } from "framer-motion";
-import ReactTypingEffect from "react-typing-effect";
 
 import profilePic from "../../images/profile/mohit.png";
 import AnimatedPage from "../UI/AnimatedPage";
