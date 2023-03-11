@@ -57,10 +57,10 @@ export const workDetails = [
     company: "Petmojo ∙ Internship",
     location: "Delhi, India",
     responsibilities: [
-      "Worte a completely new code base.",
-      "Working on Dashboard with Google map API.",
-      "Using React and Tailwind for designing the website.",
-      "Managing Authentication and Authorization",
+      "Worked on the Dashboard for internal use, with React and Tailwind.",
+      "Implemented authentication using JWT.",
+      "Handling rest APIs and increasing functionality of web app.",
+      "Built invoice generator.",
     ],
     skills: ["React", "Tailwind", "JavaScript", "REST API", "JWT"],
     duration: "Sep 2022 - Dec 2022 · 3 mo",
@@ -185,105 +185,105 @@ export const skillIcons = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
     alt: "The logo icon for HTML 5",
     title: "HTML 5",
-    url: "https://www.w3schools.com/html/"
+    url: "https://www.w3schools.com/html/",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
     alt: "The logo icon for CSS",
     title: "CSS",
-    url: "https://www.w3schools.com/css/"
+    url: "https://www.w3schools.com/css/",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     alt: "The logo icon for JAVASCRIPT",
     title: "JAVASCRIPT",
-    url: "https://www.w3schools.com/js/"
+    url: "https://www.w3schools.com/js/",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
     alt: "The logo icon for React",
     title: "React",
-    url: "https://reactjs.org"
+    url: "https://reactjs.org",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
     alt: "The logo icon for Redux",
     title: "Redux",
-    url: "https://redux.js.org"
+    url: "https://redux.js.org",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg",
     alt: "The logo icon for FIREBASE",
     title: "FIREBASE",
-    url: "https://firebase.google.com"
+    url: "https://firebase.google.com",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
     alt: "The logo icon for MongoDB",
     title: "MongoDB",
-    url: "https://www.mongodb.com"
+    url: "https://www.mongodb.com",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
     alt: "The logo icon for Tailwind",
     title: "Tailwind",
-    url: "https://tailwindcss.com"
+    url: "https://tailwindcss.com",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
     alt: "The logo icon for Bootstrap",
     title: "Bootstrap",
-    url: "https://getbootstrap.com"
+    url: "https://getbootstrap.com",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
     alt: "The logo icon for Node.JS",
     title: "Node.JS",
-    url: "https://nodejs.org/en/"
+    url: "https://nodejs.org/en/",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
     alt: "The logo icon for Next.JS",
     title: "Next.JS",
-    url: "https://nextjs.org"
+    url: "https://nextjs.org",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
     alt: "The logo icon for Git",
     title: "Git",
-    url: "https://git-scm.com"
+    url: "https://git-scm.com",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
     alt: "The logo icon for Github",
     title: "Github",
-    url: "https://github.com"
+    url: "https://github.com",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg",
     alt: "The logo icon for Heroku",
     title: "Heroku",
-    url: "https://www.heroku.com"
+    url: "https://www.heroku.com",
   },
   {
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
     alt: "The logo icon for Figma",
     title: "Figma",
-    url: "https://www.figma.com"
+    url: "https://www.figma.com",
   },
 ];
 
