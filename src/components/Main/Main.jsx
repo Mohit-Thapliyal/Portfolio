@@ -69,19 +69,19 @@ const Main = () => {
               </h1>
               <h4 className="uppercase text-sm md:text-xl font-semibold font-mono">
                 I am a{" "}
-                <ReactTypingEffect
+                <span
                   className="inline-block rounded-sm px-2 py-1 text-sm font-semibold tracking-widest text-white md:text-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
-                  cursorClassName="md:text-xl"
-                  text={[
-                    "Front End Developer",
-                    "React Developer",
-                    "Full Stack Developer",
-                  ]}
-                  speed={100}
-                  eraseSpeed={50}
-                  eraseDelay={5000}
-                  typingDelay={50}
-                />
+                  // cursorClassName="md:text-xl"
+                  // text={[
+                  //   "Front End Developer",
+                  //   "React Developer",
+                  //   "Full Stack Developer",
+                  // ]}
+                  // speed={100}
+                  // eraseSpeed={50}
+                  // eraseDelay={5000}
+                  // typingDelay={50}
+                >Front End Developer</span>
               </h4>
 
               <p className="font-sans my-2 text-sm leading-6 sm:text-base md:leading-7 md:font-medium lg:leading-7 text-justify text-shadow-sm lg:w-full xl:w-4/5 lg:text-base">
