@@ -63,7 +63,7 @@ export const workDetails = [
       "Built invoice generator.",
     ],
     skills: ["React", "Tailwind", "JavaScript", "REST API", "JWT"],
-    duration: "Sep 2022 - Dec 2022 · 3 mo",
+    duration: "Sep 2022 - Dec 2022",
   },
   {
     jobRole: "JavaScript Developer",
@@ -75,7 +75,7 @@ export const workDetails = [
       "Managed already written code base",
     ],
     skills: ["CSS", "HTML", "JavaScript", "jQuery"],
-    duration: "Jul 2022 - Aug 2022 · 1 mo",
+    duration: "Jul 2022 - Aug 2022",
   },
   {
     jobRole: "Web Developer",
@@ -87,7 +87,7 @@ export const workDetails = [
       "Used custom code and templating",
     ],
     skills: ["CSS", "HTML", "JavaScript", "Bootstrap"],
-    duration: "Sep 2021 - Nov 2021 · 3 mos",
+    duration: "Sep 2021 - Nov 2021",
   },
   {
     jobRole: "Web Developer",
@@ -107,7 +107,7 @@ export const workDetails = [
       "jQuery",
       "Bootstrap",
     ],
-    duration: "Aug 2021 - Sep 2021 · 2 mos",
+    duration: "Aug 2021 - Sep 2021",
   },
 ];
 

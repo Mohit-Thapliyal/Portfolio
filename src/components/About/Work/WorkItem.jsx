@@ -13,7 +13,7 @@ const WorkItem = (props) => {
         }}
         className="flex p-3 py-5 text-left duration-200 rounded-lg shadow-lg cursor-default font-nunito lg:justify-between bg-nosecondary lg:px-5 lg:py-6 lg:hover:scale-105"
       >
-        <div className="space-y-1 lg:w-3/6">
+        <div className="lg:flex-grow lg:w-3/5 xl:w-auto">
           <h2 className="text-lg font-bold leading-tight font-quicksand lg:leading-normal lg:text-xl">
             {props.jobRole}
           </h2>
@@ -24,11 +24,11 @@ const WorkItem = (props) => {
           <p className="text-xs font-bold lg:hidden font-quicksand lg:text-base ">
             {props.duration}
           </p>
-          <ul className="lg:mt-2">
+          <ul className="my-3">
             {props.responsibilities.map((responsibility) => (
               <li
                 key={responsibility}
-                className="mt-1 ml-4 text-sm font-medium leading-snug list-disc font-quicksand lg:w-5/6 lg:text-sm lg:font-semibold"
+                className="mt-1 ml-4 text-sm font-medium leading-snug list-disc font-quicksand lg:w-11/12 lg:text-sm lg:font-semibold"
               >
                 {responsibility}
               </li>
@@ -46,7 +46,7 @@ const WorkItem = (props) => {
           </div>
         </div>
         <div className="hidden text-center lg:block">
-          <p className="px-3 py-1 text-xs font-bold rounded-full text-primary bg-highlight font-nunito lg:text-sm">
+          <p className="px-3 py-1 text-xs font-bold rounded-full text-primary bg-highlight font-nunito lg:text-xs xl:text-sm">
             {props.duration}
           </p>
         </div>
