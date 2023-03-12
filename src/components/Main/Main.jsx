@@ -83,7 +83,7 @@ const Main = () => {
                 >Front End Developer</span>
               </h4>
 
-              <p className="font-sans my-2 text-sm leading-6 sm:text-base md:leading-7 md:font-medium lg:leading-7 text-justify text-shadow-sm lg:w-full xl:w-4/5 lg:text-base">
+              <p className="font-mono my-2 text-sm leading-6 sm:text-base tracking-tighter md:tracking-normal md:leading-7 md:font-medium lg:leading-7 text-justify text-shadow-sm lg:w-full xl:w-4/5 lg:text-base">
                 A skilled frontend developer with a passion for art. I enjoy
                 crafting visually stunning websites and exploring different
                 forms of creative expression in my free time.
