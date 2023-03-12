@@ -12,15 +12,15 @@ import painting10 from "./images/painting/painting10.jpg";
 
 // Project Assets
 import bg0 from "./images/project/project0.jpeg";
-import bg2 from "./images/project/project2.jpg";
-import bg3 from "./images/project/project3.jpg";
-import bg4 from "./images/project/project4.jpg";
-import bg5 from "./images/project/project5.jpg";
+// import bg2 from "./images/project/project2.jpg";
+// import bg3 from "./images/project/project3.jpg";
+// import bg4 from "./images/project/project4.jpg";
+// import bg5 from "./images/project/project5.jpg";
 import bg6 from "./images/project/project6.jpg";
 import airbnb from "./images/project/AirBnb.jpeg";
 import reunion from "./images/project/reunion.jpeg";
 import formGenerator from "./images/project/formGenerator.jpeg";
-import portfolio from "./images/project/portfolio.jpeg";
+// import portfolio from "./images/project/portfolio.jpeg";
 
 // Education Details
 export const educationDetails = [
@@ -295,7 +295,7 @@ export const projects = [
     title: "Netflix Clone",
     description:
       "Full Responsive Netflix clone build using Next.js, tailwind and firebase. Email authentication with bookmark functionality",
-    link: "https://netflix-clone-mohit.vercel.app/login",
+    link: "https://movie-lisac-mohit.vercel.app",
     github: "https://github.com/Mohit-Thapliyal/netflix-clone-mohit",
   },
   {
@@ -310,10 +310,10 @@ export const projects = [
   {
     id: "pja",
     image: reunion,
-    title: "Reunion Assignment",
+    title: "LivingSpace",
     description:
       "SPA with four level on filteration and search functionality. Styled using tailwind and hosted on vercel.",
-    link: "https://reunion-assignment-mohit-thapliyal.vercel.app/",
+    link: "https://livingspace-seven.vercel.app/",
     github: "https://github.com/Mohit-Thapliyal/Reunion-Assignment",
   },
   {
@@ -322,7 +322,7 @@ export const projects = [
     title: "AirBnb Clone",
     description:
       "Full Responsive AirBnb clone build using Next.js and tailwind. Modern and sleek design.",
-    link: "https://airbnb-mohit-thapliyal.vercel.app",
+    link: "https://hotels-liard-psi.vercel.app",
     github: "https://github.com/Mohit-Thapliyal/Airbnb",
   },
   {
@@ -334,49 +334,49 @@ export const projects = [
     link: "https://frontend-assignment-mohit-thapliyal.vercel.app",
     github: "https://github.com/Mohit-Thapliyal/Frontend-Assignment",
   },
-  {
-    id: "pj1",
-    image: portfolio,
-    title: "Portfolio",
-    description:
-      "My personal website showcases my web designing and web development skills. Beautifully designed with react and tailwind.",
-    link: "https://mohitthapliyal.in",
-    github: "https://github.com/Mohit-Thapliyal/Portfolio",
-  },
-  {
-    id: "pj5",
-    image: bg5,
-    title: "Car Price Predictor",
-    description:
-      "A Machine Learning project which can predict the selling price of a car based on car details. Build using Flask and Bootstrap.",
-    link: "https://car-price-predictor-mt.herokuapp.com/",
-    github: "https://github.com/Mohit-Thapliyal/Car-Price-Predictor",
-  },
-  {
-    id: "pj3",
-    image: bg3,
-    title: "Meetups",
-    description:
-      "Next.js project where you can add meetup detail by simply adding the details in the meetup form and adding any image link of your choice.",
-    link: "https://meetups.mohitthapliyal.in/",
-    github: "https://github.com/Mohit-Thapliyal/NextJS-Meet-Up",
-  },
-  {
-    id: "pj4",
-    image: bg4,
-    title: "Quotes",
-    description:
-      "Here you can add quotes and even comment on the quotes written by others. The URL changes dynamically according to the quotes.",
-    link: "https://quotes.mohitthapliyal.in/quotes",
-    github: "",
-  },
-  {
-    id: "pj2",
-    image: bg2,
-    title: "Corporate Wisdom",
-    description:
-      "A Custom designed website for a well-known book author Dr. Meena Sinha.",
-    link: "",
-    github: "",
-  },
+  // {
+  //   id: "pj1",
+  //   image: portfolio,
+  //   title: "Portfolio",
+  //   description:
+  //     "My personal website showcases my web designing and web development skills. Beautifully designed with react and tailwind.",
+  //   link: "https://mohitthapliyal.in",
+  //   github: "https://github.com/Mohit-Thapliyal/Portfolio",
+  // },
+  // {
+  //   id: "pj5",
+  //   image: bg5,
+  //   title: "Car Price Predictor",
+  //   description:
+  //     "A Machine Learning project which can predict the selling price of a car based on car details. Build using Flask and Bootstrap.",
+  //   link: "https://car-price-predictor-mt.herokuapp.com/",
+  //   github: "https://github.com/Mohit-Thapliyal/Car-Price-Predictor",
+  // },
+  // {
+  //   id: "pj3",
+  //   image: bg3,
+  //   title: "Meetups",
+  //   description:
+  //     "Next.js project where you can add meetup detail by simply adding the details in the meetup form and adding any image link of your choice.",
+  //   link: "https://meetups.mohitthapliyal.in/",
+  //   github: "https://github.com/Mohit-Thapliyal/NextJS-Meet-Up",
+  // },
+  // {
+  //   id: "pj4",
+  //   image: bg4,
+  //   title: "Quotes",
+  //   description:
+  //     "Here you can add quotes and even comment on the quotes written by others. The URL changes dynamically according to the quotes.",
+  //   link: "https://quotes.mohitthapliyal.in/quotes",
+  //   github: "",
+  // },
+  // {
+  //   id: "pj2",
+  //   image: bg2,
+  //   title: "Corporate Wisdom",
+  //   description:
+  //     "A Custom designed website for a well-known book author Dr. Meena Sinha.",
+  //   link: "",
+  //   github: "",
+  // },
 ];
