@@ -64,7 +64,8 @@ module.exports = {
         tertiary: "#05B683",
         nosecondary: "#0f4548",
         notertiary: "#05B683",
-        highlight: "#EFDB4F",
+        // highlight: "#EFDB4F",
+        highlight: "#CDFF00",
         // highlight: "#eedb32",
         // highlight: "#FEC260",
 
